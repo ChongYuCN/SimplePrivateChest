@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "simpleprivatechest",
+  "version": "${version}",
+  "name": "PrivateChest",
+  "description": "手持命名牌右键箱子，即可设置私人箱子；手持煤炭，shift+右键私人箱子，即可解除私人箱子。",
+  "authors": [
+    "ChongYu"
+  ],
+  "contact": {
+    "repo": "https://github.com/16348/PrivateChest1.20"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/privatechest/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.chongyu.privatechest.PrivateChest"
+    ]
+  },
+  "mixins": [
+    "privatechest.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.20",
+    "fabric": "*",
+    "minecraft": ">=1.19.2"
+  }
+}
